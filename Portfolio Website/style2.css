@@ -1,0 +1,333 @@
+@media only screen and (max-width: 769px) {
+  .lower-part {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #menu-close {
+    display: initial;
+    font-size: 25px;
+    padding: 30px 0px 20px 20px;
+    position: relative;
+    left: 12rem;
+  }
+
+  #menu-btn {
+    font-size: 25px;
+    display: initial;
+    color: black;
+    margin-left: 8px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    transition: 0.6s all;
+    background-color: #0077b6;
+  }
+
+  ul.active {
+    right: 0;
+  }
+
+  ul li {
+    padding: 20px 0px 20px 40px;
+    margin-left: 0;
+  }
+
+  ul li a {
+    color: white;
+  }
+
+  .main-info p {
+    font-family: fontMedium;
+    font-size: 3.5rem;
+    word-wrap: break-word;
+  }
+
+  .right-side {
+    padding: 10px;
+    margin-bottom: 3rem;
+  }
+
+  .right-side .mustan {
+    width: 35rem;
+    border-radius: 5%;
+  }
+
+  .left-block {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .main-info p {
+    font-size: 3rem;
+  }
+
+  .right-side .mustan {
+    width: 25rem;
+    border-radius: 5%;
+  }
+
+  .left-side-info {
+    width: 24rem;
+  }
+
+  .left-block p {
+    font-family: fontMedium;
+    font-size: 19px;
+  }
+
+  .right-block .about-img {
+    width: 22rem;
+  }
+
+  .left-block {
+    width: 24rem;
+  }
+
+  .skills-box i {
+    font-size: 27px;
+  }
+
+  .skills-box {
+    text-align: center;
+  }
+  .skills-box i {
+    margin: 10px 15px;
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main-info p {
+    font-size: 2.7rem;
+  }
+
+  .main-info .btn1 {
+    font-size: 14px;
+  }
+
+  .right-side .mustan {
+    width: 23rem;
+    border-radius: 5%;
+  }
+
+  .left-side-info p {
+    font-family: fontMedium;
+    font-size: 17px;
+  }
+
+  .left-side-info {
+    width: 22rem;
+  }
+
+  .lower-part .skill-box-1 {
+    width: 22rem;
+  }
+
+  .left-part {
+    margin-bottom: 2rem;
+  }
+
+  .right-block .about-img {
+    width: 19rem;
+  }
+
+  .left-block p {
+    font-family: fontMedium;
+    font-size: 17px;
+  }
+
+  .left-block h3 {
+    font-family: fontBig;
+    font-size: 21px;
+  }
+
+  .left-block {
+    width: 20rem;
+  }
+  .form input {
+    width: 23rem;
+  }
+  .form textarea {
+    width: 23rem;
+  }
+  .form select {
+    width: 23rem;
+  }
+  .form button {
+    width: 23rem;
+  }
+  .form-heading p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .form input {
+    width: 23rem;
+  }
+  .form textarea {
+    width: 23rem;
+  }
+  .form select {
+    width: 23rem;
+  }
+  .form button {
+    width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .right-side .mustan {
+    width: 20rem;
+  }
+
+  .left-side-info {
+    width: 20rem;
+  }
+
+  .lower-part .skill-box-1 {
+    width: 20rem;
+  }
+
+  .skill-box-1 p {
+    font-size: 16px;
+  }
+
+  .skill-box-1 h3 {
+    font-size: 20px;
+  }
+
+  .cta-info p {
+    font-size: 30px;
+  }
+
+  .left-block p {
+    font-family: fontMedium;
+    font-size: 15px;
+  }
+
+  .left-block {
+    width: 17rem;
+  }
+
+  .right-block .about-img {
+    width: 18rem;
+  }
+
+  .form input {
+    width: 20rem;
+  }
+  .form textarea {
+    width: 20rem;
+  }
+  .form select {
+    width: 20rem;
+  }
+  .form button {
+    width: 20rem;
+  }
+
+  .form-heading {
+    display: none;
+  }
+
+  .main-info p {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .upper-part p {
+    font-family: fontMedium;
+    font-size: 37px;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 7px;
+  }
+
+  .lower-part .skill-box-1 {
+    width: 17rem;
+  }
+
+  .right-side .mustan {
+    width: 17rem;
+  }
+
+  .left-side-info {
+    width: 16rem;
+  }
+
+  .foot {
+    width: 100%;
+    height: auto;
+    padding: 4rem 1rem 4rem 1rem;
+  }
+
+  .info-foot p {
+    font-family: fontMedium;
+    font-size: 18px;
+  }
+
+  .left-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left-part .foot-img {
+    width: 6rem;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .links-social i {
+    margin: 10px 13px;
+    font-size: 23px;
+    transition: 0.3s all;
+  }
+
+  .links-social {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .right-block .about-img {
+    width: 15rem;
+  }
+
+  .form input {
+    width: 16rem;
+  }
+  .form textarea {
+    width: 16rem;
+  }
+  .form select {
+    width: 16rem;
+  }
+  .form button {
+    width: 16rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .workbox1 {
+    width: 18rem;
+  }
+
+  .workbox1 .work-img img {
+    width: 15rem;
+}
+}
